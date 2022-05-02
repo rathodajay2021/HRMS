@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const Schema = mongoose.Schema
 const autoIncrement = require('mongoose-auto-increment');
+const Schema = mongoose.Schema
 
 const connection = mongoose.createConnection(`mongodb+srv://MERN:reset123@nodetuts.bql7y.mongodb.net/entityDB?retryWrites=true&w=majority`);
 autoIncrement.initialize(connection);
