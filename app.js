@@ -1,8 +1,8 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
-const cors = require('cors')
 require('dotenv').config()
+const cors = require('cors')
 
 const entityRouters = require('./routes/entityRoutes')
 const entityDefinationRouters = require('./routes/entityDefinationRoutes')
